@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<PackageType>Template</PackageType>
+		<PackageVersion>1.0</PackageVersion>
+		<PackageId>Waku.WPF.Templates</PackageId>
+		<Title>WPF Templates</Title>
+		<Authors>PeaceShi</Authors>
+		<Description>Waku WPF Templates.</Description>
+		<PackageTags>dotnet-new;templates;wpf</PackageTags>
+
+		<TargetFrameworks>net35;net6.0-windows</TargetFrameworks>
+
+		<IncludeContentInPack>true</IncludeContentInPack>
+		<IncludeBuildOutput>false</IncludeBuildOutput>
+		<ContentTargetFolders>content</ContentTargetFolders>
+		<NoWarn>$(NoWarn);NU5128</NoWarn>
+		<NoDefaultExcludes>true</NoDefaultExcludes>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**;templates\**\.vs\*" />
+		<Compile Remove="**\*" />
+	</ItemGroup>
+
+</Project>

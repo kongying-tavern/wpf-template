@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "PeaceShi",
+  "classifications": [ "Common", "WPF" ],
+  "identity": "Waku.WPFProject",
+  "name": "WPF Project Template",
+  "shortName": "waku-wpf",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}
