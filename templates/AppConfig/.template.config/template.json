@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "PeaceShi",
+  "classifications": [ "Common", "WPF", "Config" ],
+  "identity": "Waku.WPFConfig",
+  "name": "WPF Project Config",
+  "shortName": "waku-wpf-config",
+  "tags": {
+    "language": "XML",
+    "type": "item"
+  }
+}
