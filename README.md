@@ -5,7 +5,7 @@ WPF project template
 Install template:
 
 ```
-dotnet add Waku.WPF.Templates
+dotnet new install Waku.WPF.Templates
 ```
 
 - For NuGet packages. See Microsoft doc [here][NuGetDoc].
